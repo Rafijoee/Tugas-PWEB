@@ -1,6 +1,6 @@
 <?php
 
-Class Dashboard{
+Class database{
     public $id;
     public $user_id;
     public $owner;
