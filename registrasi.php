@@ -16,29 +16,29 @@
 
     <div class="container mx-auto flex flex-col justify-center items-center mt-20 w-1/2">
         <div class="bg-white shadow-xl rounded-lg p-8 w-full md:w-1/2 relative overflow-hidden">
-          <h1 class="text-center text-2xl font-bold mb-4 text-purple-500">Registrasi</h1>
+          <h1 class="text-center text-2xl font-bold mb-4 text-gray-500">Registrasi</h1>
           <form action="#">
             <div class="mb-4">
               <label for="nama" class="block text-sm font-medium text-gray-700 mb-2">Nama Lengkap</label>
-              <input type="text" id="nama" class="border border-purple-300 rounded-md p-2 w-full focus:ring-purple-500 focus:border-purple-500 transition duration-300 ease-in-out focus:outline-none" placeholder="Masukkan nama lengkap Anda">
+              <input type="text" id="nama" class="border border-gray-300 rounded-md p-2 w-full focus:ring-gray-500 focus:border-gray-500 transition duration-300 ease-in-out focus:outline-none" placeholder="Masukkan nama lengkap Anda">
             </div>
             <div class="mb-4">
               <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
-              <input type="email" id="email" class="border border-purple-300 rounded-md p-2 w-full focus:ring-purple-500 focus:border-purple-500 transition duration-300 ease-in-out focus:outline-none" placeholder="Masukkan alamat email Anda">
+              <input type="email" id="email" class="border border-gray-300 rounded-md p-2 w-full focus:ring-gray-500 focus:border-gray-500 transition duration-300 ease-in-out focus:outline-none" placeholder="Masukkan alamat email Anda">
             </div>
             <div class="mb-4">
               <label for="password" class="block text-sm font-medium text-gray-700 mb-2">Kata Sandi</label>
-              <input type="password" id="password" class="border border-purple-300 rounded-md p-2 w-full focus:ring-purple-500 focus:border-purple-500 transition duration-300 ease-in-out focus:outline-none" placeholder="Masukkan kata sandi Anda">
+              <input type="password" id="password" class="border border-gray-300 rounded-md p-2 w-full focus:ring-gray-500 focus:border-gray-500 transition duration-300 ease-in-out focus:outline-none" placeholder="Masukkan kata sandi Anda">
             </div>
             <div class="mb-4">
               <label for="konfirmasi_password" class="block text-sm font-medium text-gray-700 mb-2">Konfirmasi Kata Sandi</label>
-              <input type="password" id="konfirmasi_password" class="border border-purple-300 rounded-md p-2 w-full focus:ring-purple-500 focus:border-purple-500 transition duration-300 ease-in-out focus:outline-none" placeholder="Masukkan konfirmasi kata sandi Anda">
+              <input type="password" id="konfirmasi_password" class="border border-gray-300 rounded-md p-2 w-full focus:ring-gray-500 focus:border-gray-500 transition duration-300 ease-in-out focus:outline-none" placeholder="Masukkan konfirmasi kata sandi Anda">
             </div>
             <div class="flex items-center mb-4">
-              <input type="checkbox" id="terms" class="mr-2 border border-purple-300 rounded-md focus:ring-purple-500 focus:border-purple-500">
+              <input type="checkbox" id="terms" class="mr-2 border border-gray-300 rounded-md focus:ring-gray-500 focus:border-gray-500">
               <label for="terms" class="text-sm font-medium text-gray-700">Saya telah membaca dan menyetujui <a href="#">Syarat & Ketentuan</a></label>
             </div>
-            <a href="login.html" type="submit" class="text-center bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 text-white font-medium rounded-md p-2 w-full transition duration-300 ease-in-out">Daftar</a>
+            <a href="login.html" type="submit" class="text-center bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-r from-gray-600 via-gray-700 to-gray-800 text-white font-medium rounded-md p-2 w-full transition duration-300 ease-in-out">Daftar</a>
           </form>
           <div class="absolute bottom-0 left-0 right-0 -z-10">
             <svg class="w-full h-full" viewBox="0 0 1440 320" preserveAspectRatio="none">

@@ -39,10 +39,10 @@
                                         <label for="remember" class="text-gray-500 dark:text-gray-300">Ingat Aku</label>
                                     </div>
                                 </div>
-                                    <a href="#" class="text-purple-800 text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Lupa Kata Sandi?</a>
+                                    <a href="#" class="text-white-800 text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Lupa Kata Sandi?</a>
                                 </div>
                                 <div class="mt-5">
-                                <a href="dashboard.html" type="button" class="border-2 border-purple-700 bg-purple-700 text-white w-full h-10 py-1 rounded-md hover:bg-transparent hover:text-purple-700 font-semibold text-center">Login</a>
+                                <a href="dashboard.html" type="button" class="border-2 border-gray-700 bg-gray-700 text-gray w-full h-10 py-1 rounded-md hover:bg-transparent hover:text-gray-900 font-semibold text-center">Login</a>
                                 </div>
                                 <p  class="text-sm font-light text-gray-500 dark:text-gray-400">
                                     Belum mempunyai akun? <a href="registrasi.html" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Registrasi</a>
