@@ -1,24 +1,12 @@
 <?php
 
-Class database{
-    public $id;
-    public $user_id;
-    public $owner;
-    public $no_hp;
-    public $created_at;
-    public $updated_at;
-    public $judul;
+$host = 'localhost';
+$username = 'root';
+$password = '';
 
-    static function select(){
-
-    }
-    static function insert(){
-
-    }
-    static function update(){
-
-    }
-    static function delete(){
-
-    }
-  }
+$database = 'pweb';
+$conn = new mysqli($host, $username, $password, $database);
+if ($conn->connect_error){
+  die("koneksi database gagal: ".$conn->connect_error);
+}
+?>
